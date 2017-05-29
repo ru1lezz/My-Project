@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	height:1800px;
+	background-color:#333;
+	background-image: url(../img/img1.jpg)
+}
+
+.parallax-bg{
+	padding: 300px 0;
+	background-image: url(../img/img1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;	
+}
+
+.parallax-bg h1{
+    text-align: center;
+    color: #ff9999;
+    font-size: 70px;
+}
